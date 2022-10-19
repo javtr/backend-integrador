@@ -14,6 +14,7 @@ public class CategoriaService
     private CategoriaRepository categoriaRepository;
 
     public Categorias saveCategoria(Categorias categoria){
+        System.out.println(categoria);
         return categoriaRepository.save(categoria);
     }
 
